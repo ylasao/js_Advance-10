@@ -10,6 +10,7 @@ const Nav = {
                   <li><a class="font-sans text-black font-normal text-lg" href="/">Home</a></li>
                   <li><a class="font-sans text-black font-normal text-lg" href="/about">About</a></li>
                   <li><a class="font-sans text-black font-normal text-lg" href="/contact">Contact</a></li>
+                  <li><a class="font-sans text-black font-normal text-lg" href="/admin/products">Admin</a></li>
                </ul>
             </div>
             <div>

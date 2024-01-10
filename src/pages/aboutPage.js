@@ -1,5 +1,5 @@
 const AboutPage = {
-  about() {
+  render() {
     return /* html */ ` 
       <div class="container mx-auto">
           <h1>About</h1>

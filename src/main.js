@@ -27,11 +27,14 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/aboutPage";
 import HeaderPage from "./components/header";
 import Footer from "./components/footer";
+import Admin from "./pages/admin";
+import Contact from "./pages/contact";
+import AdminPage from './pages/admin/Post/index.js'
 const router = new Navigo("/", { linksSelector: "a" });
 
-const render = (content) => {
+const print =async (content) => {
   document.getElementById('header').innerHTML = HeaderPage.header()
-  document.getElementById("app").innerHTML = content;
+  document.getElementById("app").innerHTML =await content.render();
   document.getElementById('footer').innerHTML = Footer.footer()
 };
 
@@ -39,11 +42,21 @@ const render = (content) => {
  
 router.on({
   "/": () => {
-    render(HomePage.home());
+    print(HomePage);
   },
   "/about": () => {
-    render(AboutPage.about());
+    print(AboutPage);
   },
+  "/admin" : ()  => {
+    print(Admin)
+  },
+    '/contact' : () => {
+      print(Contact)
+ },
+ "/admin/products" : () => {
+   print(AdminPage) 
+ }
+  
 });
 
 router.resolve();

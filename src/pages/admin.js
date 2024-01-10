@@ -121,3 +121,19 @@ addProducts.addEventListener('click' , addPro)
  
    
  */
+
+const Admin = {
+  render () {
+    return /* html */ `
+      <div>
+         <h1>Page Admin</h1>
+         <div class='grid grid-cols-2 gap-4'>
+            <div>DashBoard</div>
+            <div>Content</div>
+         </div>
+      </div>
+    
+    `
+  }
+}
+export default Admin;

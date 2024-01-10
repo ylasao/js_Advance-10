@@ -1,10 +1,11 @@
 const Contact = {
-  contact() {
+  render() {
     return /* html */ `
         <div class="container mx-auto">
           <h1>Contact</h1>
-      </div>
-        
+      </div> 
         `;
   },
 };
+
+export default Contact;

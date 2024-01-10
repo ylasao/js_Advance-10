@@ -10,12 +10,14 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
+    "faker": "^6.6.6",
     "nodemon": "^3.0.2",
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1",
     "vite": "^5.0.8"
   },
   "dependencies": {
+    "axios": "^1.6.5",
     "json-server": "^1.0.0-alpha.14",
     "navigo": "^8.11.1"
   }
