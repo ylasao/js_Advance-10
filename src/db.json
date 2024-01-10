@@ -1,0 +1,29 @@
+{
+  "products" : 
+  [
+    {
+      "id" : 1 ,
+       "image" : "https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg" ,
+       "name" : "Shirts One" , 
+       "price" : 1000  
+    },
+    {
+      "id" : 2 ,
+       "image" : "https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg" ,
+       "name" : "Shirts One" , 
+       "price" : 1000  
+    },
+    {
+      "id" : 3 ,
+       "image" : "https://tailwindui.com/img/ecommerce-images/mega-menu-category-03.jpg" ,
+       "name" : "Shirts One" , 
+       "price" : 1000  
+    },
+    {
+      "id" : 4 ,
+       "image" : "https://tailwindui.com/img/ecommerce-images/mega-menu-category-04.jpg" ,
+       "name" : "Shirts One" , 
+       "price" : 1000  
+    } 
+  ]
+}
